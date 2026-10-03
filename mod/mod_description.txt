@@ -9,6 +9,9 @@ Tyre grip is lowered for a realistic feel (old bias-ply tyres on
 the Mustang grip least), so hills, grass and dirt need the right
 drive mode and some care.
 
+Also fixes the '67 Mustang's missing tyre sound on concrete
+(a file name typo in the base game).
+
 [orange]Ford Bronco 2024[normal]    0-60 mph ~6 s, ~130 mph
 [orange]Ford F-150 2023[normal]     0-60 mph ~5.5-6 s, ~125 mph
 [orange]Ford Mustang 1967[normal]   0-60 mph ~8.5-9 s, ~115-120 mph

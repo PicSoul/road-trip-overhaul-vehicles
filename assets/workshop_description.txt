@@ -6,6 +6,8 @@ Weight, drag and engine output of every car are calibrated so acceleration and t
 
 Tyre grip is lowered for a realistic feel (old bias-ply tyres on the Mustang grip least), so hills, grass and dirt need the right drive mode and some care.
 
+Also fixes the '67 Mustang's missing tyre sound on concrete (a file name typo in the base game).
+
 [table]
 [tr][th]Car[/th][th]0-60 mph[/th][th]Top speed[/th][/tr]
 [tr][td]Ford Bronco 2024[/td][td]~6 s[/td][td]~130 mph[/td][/tr]
