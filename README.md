@@ -33,6 +33,7 @@ Changes apply to cars you already own. Only the Road Trip cars are changed; truc
 | `def/vehicle/car/<car>/engine/*.sii` | internal `torque` calibrated to real 0-60 times (the info lines keep the real figures); shift ranges and torque curves are stock |
 | `def/vehicle/car/<car>/chassis/*.sii` | `air_resistance` and `kerb_weight` calibrated to the real car |
 | `def/vehicle/{p,q,x,y}_tire/*.sii` | `grip_factor` lowered (front and rear tyres separately) |
+| `sound/car/tires/concrete_oldtimer.soundref` | added: the DLC's Mustang tyres reference this file, but the game ships it misspelled (`conrete_oldtimer`); this copy fixes the missing concrete tyre sound and the Workshop Uploader's "Soundref file not found" error |
 
 Every changed value has a comment with the stock value next to it.
 
