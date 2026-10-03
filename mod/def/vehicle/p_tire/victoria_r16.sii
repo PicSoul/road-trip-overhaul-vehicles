@@ -1,0 +1,22 @@
+SiiNunit
+{
+accessory_wheel_data : vic_r16.ptire
+{
+	name: "@@tire_r16@@"
+	price: 250
+	unlock: 0
+	icon: "car/upgrade/wheel/tire/victoria_16"
+	part_type: aftermarket
+
+	model: "/vehicle/car/upgrade/wheel/tire/victoria_06/victoria_front_16.pmd"
+	roll_resistance: 11
+	# Vehicle Tuning: front tyre grip for a realistic car feel (stock grip_factor 1.2)
+	grip_factor: 0.85
+
+	suitable_for[]: "vic_r16_stl.pdisc"
+	suitable_for[]: "vic_r16_chr.pdisc"
+	suitable_for[]: "vic_r16_alu.pdisc"
+
+@include "sound_victoria_r16.sui"
+}
+}

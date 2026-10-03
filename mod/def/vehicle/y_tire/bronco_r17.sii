@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_wheel_data : bro_r17.ytire
+{
+	name: "@@tire_r17@@"
+	price: 650
+	unlock: 0
+	icon: "car/upgrade/wheel/tire/bronco"
+	part_type: factory
+
+	model: "/vehicle/car/upgrade/wheel/tire/bronco_24/bronco_r17.pmd"
+	roll_resistance: 13
+	# Vehicle Tuning: rear tyre grip for a realistic car feel (stock grip_factor 1.2)
+	grip_factor: 0.9
+
+	suitable_for[]: "bro_r17_alu.ydisc"
+
+@include "sound_bronco.sui"	
+}
+}

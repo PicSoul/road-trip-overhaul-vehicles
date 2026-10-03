@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_wheel_data : f150_r18.xtire
+{
+	name: "@@tire_r18@@"
+	price: 550
+	unlock: 0
+	icon: "car/upgrade/wheel/tire/f150_big"
+	part_type: aftermarket
+
+	model: "/vehicle/car/upgrade/wheel/tire/f150_23/f150_r18.pmd"
+	roll_resistance: 13
+	# Vehicle Tuning: front tyre grip for a realistic car feel (stock grip_factor 1.2)
+	grip_factor: 0.95
+
+	suitable_for[]: "trm_r18_bk.xdisc"
+
+@include "sound_lariat.sui"	
+}
+}

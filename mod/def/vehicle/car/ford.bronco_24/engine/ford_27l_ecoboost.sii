@@ -1,0 +1,50 @@
+SiiNunit
+{
+accessory_engine_data : ford_27l_eco.ford.bronco_24.engine
+{
+	name: "@@engine_ford_27l_ecoboost_v6@@"
+	price: 10800
+	unlock: 0
+	info[]: "325 @@hp@@ (242@@kw@@)"
+	info[]: "400 @@lb_ft@@ (542@@nm@@)"
+	info[]: "2@@dg@@750 @@rpm@@"
+	icon: "engine_cummins_x15_efficiency"
+	part_type: factory
+
+	type: petrol
+
+	# Vehicle Tuning: internal torque calibrated so 0-60 matches the real car (stock 563 = the real 415 lb-ft;
+	# the game models fewer drivetrain losses). The info lines above keep the real figures.
+	torque: 462
+	volume: 2.7
+
+	torque_curve[]: (0, 0)
+	torque_curve[]: (1000, 0.35)
+	torque_curve[]: (1500, 0.60)
+	torque_curve[]: (2000, 0.78)
+	torque_curve[]: (2500, 0.92)
+	torque_curve[]: (3000, 1.00)
+	torque_curve[]: (4000, 0.96)
+	torque_curve[]: (5000, 0.82)
+	torque_curve[]: (5500, 0.72)
+	torque_curve[]: (5900, 0.62)
+	torque_curve[]: (7000, 0.00)
+
+	rpm_idle: 600
+	rpm_limit: 5900
+	rpm_limit_neutral: 4200
+	rpm_range_low_gear: (1300, 1900)
+	rpm_range_high_gear: (1500, 2000)
+	rpm_range_power: (4500, 5500)
+	rpm_range_engine_brake: (4500, 5500)
+	cold_start_rpm: 800
+
+	engine_brake: 0.0
+	adblue_consumption: 0.0
+
+	flywheel_inertia: 0.5
+	engine_aspiration: "turbocharger"
+
+@include "sound.sui"
+}
+}

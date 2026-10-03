@@ -1,0 +1,16 @@
+SiiNunit
+{
+mod_package : .rto.vehicles
+{
+	package_version: "1.0"
+	display_name: "Road Trip Overhaul - Vehicle Tuning"
+	author: "PicSoul"
+	category[]: "tuning_parts"
+	category[]: "physics"
+	icon: "mod_icon.jpg"
+	description_file: "mod_description.txt"
+	compatible_versions[]: "1.61.*"
+	dlc_dependencies[]: "dlc_rt_ford"
+	mp_mod_optional: true
+}
+}

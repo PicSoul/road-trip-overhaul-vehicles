@@ -1,0 +1,48 @@
+SiiNunit
+{
+accessory_engine_data : v8_46l.ford.victoria_06.engine
+{
+	name: "@@engine_ford_46l_v8@@"
+	price: 2400
+	unlock: 0
+	info[]: "239 @@hp@@ (178@@kw@@)"
+	info[]: "287 @@lb_ft@@ (389 @@nm@@)"
+	info[]: "4@@dg@@100 @@rpm@@"
+	icon: "engine_cummins_x15_efficiency"
+	part_type: factory
+
+	type: petrol
+
+	# Vehicle Tuning: internal torque x0.82 (stock 389); the game models fewer drivetrain losses. Info lines keep the real figures.
+	# Vehicle Tuning: recalibrated (~7.7 s to 60 like the Police Interceptor (276 gave 8.0 s))
+	torque: 290
+	volume: 4.601
+
+	torque_curve[]: (0, 0.0)
+	torque_curve[]: (1000, 0.47)
+	torque_curve[]: (1500, 0.71)
+	torque_curve[]: (2000, 0.83)
+	torque_curve[]: (3000, 0.95)
+	torque_curve[]: (4100, 1.0)
+	torque_curve[]: (4500, 0.96)
+	torque_curve[]: (5200, 0.77)
+	torque_curve[]: (6100, 0.0)
+
+	rpm_idle: 800
+	rpm_limit: 6000
+	rpm_limit_neutral: 6000
+	rpm_range_low_gear: (1200, 3000)
+	rpm_range_high_gear: (1600, 3400)
+	rpm_range_power: (3500, 5600)
+	rpm_range_engine_brake: (3500, 5600)
+
+	engine_brake: 0.0
+	adblue_consumption: 0.0
+
+	flywheel_inertia: 0.6
+	cold_start_rpm: 1000
+	engine_aspiration: "natural"
+
+@include "sound.sui"
+}
+}

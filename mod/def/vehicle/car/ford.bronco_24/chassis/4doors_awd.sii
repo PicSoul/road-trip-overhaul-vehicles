@@ -1,0 +1,125 @@
+SiiNunit
+{
+accessory_chassis_data : 4d_awd.ford.bronco_24.chassis
+{
+	name: "@@chassis_awd_coil_spring@@"
+	price: 11500
+	unlock: 0
+	info[]: "@@chassis_awd@@"
+	info[]: "20 @@gal@@"
+	icon: "car/share/chassis/chassis_awd"
+	part_type: factory
+
+	model: "/vehicle/car/ford_bronco_24/chassis/awd_4doors.pmd"
+	collision: "/vehicle/car/ford_bronco_24/chassis/awd_4doors.pmc"
+	variant: default
+	look: default
+
+	extended_shadow_texture: "/vehicle/car/ford_bronco_24/ui_shadow.tobj"
+	extended_shadow_intensity: 1.0
+	extended_shadow_fadeout_start: 10
+	extended_shadow_fadeout_length: 0
+	ui_shadow: "/vehicle/car/ford_bronco_24/ui_shadow/chs4x4.pmd"
+
+	tank_size: 79
+	air_tank_pressure: 0.0
+	nominal_voltage: 12
+
+	residual_travel[]: 0.1
+	residual_travel[]: 0.11
+
+	powered_axle[]: true
+	powered_axle[]: true
+
+	disc_brake[]: true
+	disc_brake[]: true
+
+	suspension_class: standard
+
+	axle_suspension_type[]: wishbone
+	axle_suspension_type[]: solidaxle
+
+	solid_axle_suspension_model[]: "/vehicle/car/ford_bronco_24/chassis/axle_1.pmd"
+
+	animation[]: .susp_0
+	animation[]: .susp_1
+	animation[]: .susp_2
+	animation[]: .susp_3
+
+	brake_rotor_diameter[]: 0.308
+	brake_rotor_diameter[]: 0.308
+
+	# Vehicle Tuning: calibrated against the real 2.7L Bronco (stock: air_resistance 0.55, kerb_weight 1072 / 1072)
+	air_resistance: 0.75
+
+	kerb_weight[]: 1150
+	kerb_weight[]: 1150
+
+	suspension_damping_factor[]: 0.8
+	suspension_damping_factor[]: 0.6
+
+	max_steering_angle: 30
+	sway_bar_stiffness: 0.4
+	cog_height: 0.72
+
+	# Front and rear disc brakes
+	brake_caliper_model[]: "/vehicle/car/upgrade/wheel/caliper/bronco_24/bronco_front.pmd"
+	brake_caliper_model[]: "/vehicle/car/upgrade/wheel/caliper/bronco_24/bronco_rear.pmd"
+
+	defaults[]: "/def/vehicle/car/ford.bronco_24/cabin/offroad_4doors.sii"
+
+@include "sound.sui"
+}
+
+vehicle_animation_data: .susp_0
+{
+	type: suspension
+	wheel_index: 0
+
+	model: "/vehicle/car/ford_bronco_24/chassis/susp_0.pmd"
+	anim: "/vehicle/car/ford_bronco_24/chassis/susp_0_left_anim.pma"
+
+	min: -11.0
+	range: 22.0
+}
+
+vehicle_animation_data: .susp_1
+{
+	type: suspension
+	wheel_index: 1
+
+	model: "/vehicle/car/ford_bronco_24/chassis/susp_0.pmd"
+	anim: "/vehicle/car/ford_bronco_24/chassis/susp_0_right_anim.pma"
+
+	min: -11.0
+	range: 22.0
+}
+
+vehicle_animation_data: .susp_2
+{
+	type: suspension
+	wheel_index: 2
+
+	model: "/vehicle/car/ford_bronco_24/chassis/susp_1.pmd"
+	anim: "/vehicle/car/ford_bronco_24/chassis/susp_1_left_anim.pma"
+
+	min: -11.0
+	range: 22.0
+
+	main_bone: axle_l
+}
+
+vehicle_animation_data: .susp_3
+{
+	type: suspension
+	wheel_index: 3
+
+	model: "/vehicle/car/ford_bronco_24/chassis/susp_1.pmd"
+	anim: "/vehicle/car/ford_bronco_24/chassis/susp_1_right_anim.pma"
+
+	min: -11.0
+	range: 22.0
+
+	main_bone: axle_r
+}
+}

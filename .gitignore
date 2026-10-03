@@ -1,0 +1,11 @@
+# Whitelist: only the mod source, its build scripts and docs are published.
+# Reference material (extracted game / DLC data, third-party mods) and build output stay local.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/build.py
+!/mod/
+!/tools/
+!/assets/
+__pycache__/

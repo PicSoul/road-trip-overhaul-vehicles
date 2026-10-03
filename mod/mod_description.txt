@@ -1,0 +1,23 @@
+Real-world performance for the cars of the Road Trip: Ford DLC.
+
+Weight, drag and engine output of every car are calibrated
+so acceleration and top speed match the real car (with no
+factory speed governor). Engines still show their real
+power and torque figures.
+
+Tyre grip is lowered for a realistic feel (old bias-ply tyres on
+the Mustang grip least), so hills, grass and dirt need the right
+drive mode and some care.
+
+[orange]Ford Bronco 2024[normal]    0-60 mph ~6 s, ~130 mph
+[orange]Ford F-150 2023[normal]     0-60 mph ~5.5-6 s, ~125 mph
+[orange]Ford Mustang 1967[normal]   0-60 mph ~8.5-9 s, ~115-120 mph
+[orange]Ford Crown Victoria 2006[normal]  0-60 mph ~7.5-8 s, ~130 mph
+
+Requires the Road Trip: Ford DLC.
+Changes apply to cars you already own.
+
+Works best with the Road Trip Overhaul plugin (optional):
+realistic throttle-based shifting, real 2H / 4H and
+surface-dependent grip.
+github.com/PicSoul/road-trip-overhaul

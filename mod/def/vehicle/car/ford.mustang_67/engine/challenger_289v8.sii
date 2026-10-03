@@ -1,0 +1,49 @@
+SiiNunit
+{
+accessory_engine_data : ch289v8.ford.mustang_67.engine
+{
+	name: "@@engine_challenger_289ci_v8@@"
+	price: 12400
+	unlock: 0
+	info[]: "225 @@hp@@ (168@@kw@@)"
+	info[]: "305 @@lb_ft@@ (414@@nm@@)"
+	info[]: "1@@dg@@000 @@rpm@@"
+	icon: "engine_cummins_x15_efficiency"
+	part_type: factory
+
+	type: petrol
+
+	# Vehicle Tuning: internal torque x0.82 (stock 382); the game models fewer drivetrain losses. Info lines keep the real figures.
+	# Vehicle Tuning: recalibrated (~8.5 s to 60, just quicker than period road tests (210 gave 8.9 s))
+	torque: 220
+	volume: 4.727
+
+	torque_curve[]: (0, 0.0)
+	torque_curve[]: (1000, 0.39)
+	torque_curve[]: (1500, 0.75)
+	torque_curve[]: (2000, 0.96)
+	torque_curve[]: (2400, 1.00)
+	torque_curve[]: (3000, 0.98)
+	torque_curve[]: (4000, 0.90)
+	torque_curve[]: (4500, 0.84)
+	torque_curve[]: (5000, 0.64)
+	torque_curve[]: (6000, 0.0)
+
+	rpm_idle: 800
+	rpm_limit: 5500
+	rpm_limit_neutral: 5500
+	rpm_range_low_gear: (1400, 2300)
+	rpm_range_high_gear: (1500, 2300)
+	rpm_range_power: (2200, 3400)
+	rpm_range_engine_brake: (2500, 4000)
+
+	engine_brake: 0.0
+	adblue_consumption: 0.0
+	cold_start_rpm: 1000
+
+	flywheel_inertia: 0.48
+	engine_aspiration: "natural"
+
+@include "sound.sui"
+}
+}

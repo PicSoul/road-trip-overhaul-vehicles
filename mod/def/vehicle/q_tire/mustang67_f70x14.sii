@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_wheel_data : mu67f70x14.qtire
+{
+	name: "@@tire_mustang_f70x14@@"
+	price: 600
+	unlock: 0
+	icon: "car/upgrade/wheel/tire/mustang_67/mustang67_p_tire"
+	part_type: aftermarket
+
+	model: "/vehicle/car/upgrade/wheel/tire/mustang_67/mustang67_p_tire.pmd"
+	roll_resistance: 11
+	# Vehicle Tuning: rear tyre grip for a realistic car feel (stock grip_factor 1.1)
+	grip_factor: 0.84
+
+	suitable_for[]: "mu67f70x14s.qdisc"
+	suitable_for[]: "mu67f70x14d.qdisc"
+	suitable_for[]: "mu67f70x14w.qdisc"
+	
+
+@include "sound_mustang_67_r14.sui"
+}
+}

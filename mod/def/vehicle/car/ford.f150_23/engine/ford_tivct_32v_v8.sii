@@ -1,0 +1,47 @@
+SiiNunit
+{
+accessory_engine_data : ford_tivctv8.ford.f150_23.engine
+{
+	name: "@@engine_ford_50l_tivct_32v_v8@@"
+	price: 12200
+	unlock: 0
+	info[]: "400 @@hp@@ (298@@kw@@)"
+	info[]: "410 @@lb_ft@@ (556@@nm@@)"
+	info[]: "4@@dg@@250 @@rpm@@"
+	icon: "engine_cummins_x15_efficiency"
+	part_type: factory
+
+	type: petrol
+
+	# Vehicle Tuning: internal torque x0.82 (stock 556); the game models fewer drivetrain losses. Info lines keep the real figures.
+	torque: 456
+	volume: 5.0
+
+	torque_curve[]: (0, 0)
+	torque_curve[]: (1000, 0.6)
+	torque_curve[]: (1500, 0.75)
+	torque_curve[]: (2000, 0.8)
+	torque_curve[]: (2700, 0.78)
+	torque_curve[]: (3000, 0.87)
+	torque_curve[]: (4000, 0.9)
+	torque_curve[]: (4500, 1.0)
+	torque_curve[]: (5000, 0.92)
+	torque_curve[]: (6000, 0.85)
+	torque_curve[]: (8000, 0.0)
+
+	rpm_idle: 650
+	rpm_limit: 6500
+	rpm_limit_neutral: 3800
+	rpm_range_low_gear: (1300, 1800)
+	rpm_range_high_gear: (1500, 2200)
+	rpm_range_power: (5000, 6000)
+	rpm_range_engine_brake: (4500, 5500)
+
+	engine_brake: 0.0
+	adblue_consumption: 0.0
+
+	flywheel_inertia: 0.7024
+
+@include "sound.sui"
+}
+}

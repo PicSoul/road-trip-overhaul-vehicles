@@ -1,0 +1,20 @@
+SiiNunit
+{
+accessory_wheel_data : f150_r20.ytire
+{
+	name: "@@tire_r20@@"
+	price: 600
+	unlock: 0
+	icon: "car/upgrade/wheel/tire/lariat"
+	part_type: aftermarket
+
+	model: "/vehicle/car/upgrade/wheel/tire/f150_23/f150_r20.pmd"
+	roll_resistance: 13
+	# Vehicle Tuning: rear tyre grip for a realistic car feel (stock grip_factor 1.2)
+	grip_factor: 0.95
+
+	suitable_for[]: "lar_r20_bk.ydisc"
+
+@include "sound_lariat.sui"	
+}
+}
