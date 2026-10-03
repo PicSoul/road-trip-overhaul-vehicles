@@ -23,7 +23,7 @@ Changes apply to cars you already own. Only the Road Trip cars are changed; truc
 
 ## Install
 
-- **Steam Workshop:** subscribe, then enable it in the in-game Mod Manager.
+- **[Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3812313188):** subscribe, then enable it in the in-game Mod Manager.
 - **Manual:** download `road_trip_overhaul_vehicles.scs` from [Releases](https://github.com/PicSoul/road-trip-overhaul-vehicles/releases), put it in `Documents\American Truck Simulator\mod` and enable it in the Mod Manager.
 
 ## What is changed
